@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/slick.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <style>
+        .error {
+            border: 2px solid #ff4d4d !important;
+            color: #fe0606;
+        }
+
+        .countdown {
+            display: block;
+            color: #fff;
+            margin-bottom: 24px !important;
+        }
+
+        .testmonialSlider .heading span {
+            font-size: 15px;
+            font-weight: lighter;
+            color: #333333;
+        }
+        .dNone{
+            position: absolute;
+            right: 0;
+            height: 100%;
+            z-index: 1;
+            width: 30%;
+        }
+        .wsSlider .slick-list::after{
+            position: absolute;
+            content: "";
+            background-image: url("./img/gredient-shadow.png");
+            right: 0;
+            height: 80%;
+            width: 42%;
+            top: 0;
+            z-index: 1;
+        }
+        .wsSlider .slick-list::before{
+            position: absolute;
+            content: "";
+            background: #fff;
+            right: 0;
+            top: 0;
+            height: 80%;
+            width: 10%;
+            z-index: 2;
+
+        }
+        .sliderContentDiv .slick-list::after{
+            position: absolute;
+            content: "";
+            background-image: url("./img/gredient-shadow.png");
+            right: 0;
+            height: 100%;
+            width: 42%;
+            top: 0;
+            z-index: 1;
+        }
+        .sliderContentDiv .slick-list::before{
+            position: absolute;
+            content: "";
+            background: #fff;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 2%;
+            z-index: 2;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class="headerTop">
+        <span class="headClassBg"></span>
+        <div class="container headClass">
+            <a href="https://www.kent.co.in/" target="_blank" class="logo"><img src="./img/logo.png" alt=""></a>
+            <a href="https://www.kent.co.in/" class="homePage" target="_blank">Home Page</a>
+            <h1>Are you protecting your baby from hard water?</h1>
+            <div class="headerContent">
+                <div class="headerContentLeft">
+                    <p>Hard water is linked to<br> itchiness, red rashes and<br> raises the risk of Eczema<br> in
+                        babies*
+                        <span class="headerSource">*Source: King’s College London- 2016</span>
+                    </p>
+                    <!-- <p>Hard water linked to <br>itchiness, dryness & red <br>rashes in babies</p> -->
+                    <p class="small">Give your baby the best care with soft water by<br>
+                        KENT Bathroom Water Softener.</p>
+                </div>
+                <div class="formClass formInput headerContentRight" id="bookDemo">
+                    <form action="">
+
+                        <div id="stepOne">
+                            <span class="formClassH">Get Your Water Checked</span>
+                            <span class="formClassH formClassHS">by KENT Water Experts</span>
+                            <div><input type="text" name="name" id="" class="error" placeholder="Name*"
+                                    value="Please enter name"></div>
+                            <div><input type="text" name="name" id="" class="" placeholder="Mobile No*"></div>
+                            <div><input type="text" name="name" id="" class="" placeholder="Email ID*"></div>
+                            <div><input type="text" name="name" id="" class="" placeholder="City*"></div>
+                            <div><input type="text" name="name" id="" class="" placeholder="Pincode"></div>
+                            <div class="">
+                                <input type="checkbox" id="">
+                                <p>I have read the terms and conditions. I agree to be contacted by KENT RO or its
+                                    representatives via email, SMS or phone overriding my NDNC registration through
+                                    Email,
+                                    SMS or phone.</p>
+                                <div style="clear: both;"></div>
+                            </div>
+                            <div><span class="btn formBTN next">Next</span></div>
+                        </div>
+                        <div id="stepTwo" style="display:none; text-align: center;">
+                            <div class="stepOneP">Note: Please validate using OTP sent to your mobile number.</div>
+                            <div class="stepOTPdiv"><input type="text" name="name" id="" placeholder="ENTER OTP*"></div>
+                            <img src="./img/OTP_Illustration.png" />
+                            <div class="countdown"><span id="countdown">15</span>:00<br class="br">
+                                <a href="#" class="ResendOTP">Resend OTP</a></div>
+                            <div><span class="btn formBTN book">Book My Free Demo</span></div>
+                        </div>
+                    </form>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sheildBg">
+        <div class="container">
+            <div class="shieldDiv">
+                <p>KENT Home Water Softener converts
+                    hard water into soft water, to keep your
+                    baby’s skin soft and smooth
+                </p>
+                <ul>
+                    <li>
+                        <span>Easy to fit in a bathroom.</span>
+                    </li>
+                    <li>
+                        <span>Suitable for even single bathroom.</span>
+                    </li>
+                    <li>
+                        <span>Can be installed easily.</span>
+                    </li>
+                    <li>
+                        <span>Easy to regenerate by table salt.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="skyBlueBG">
+        <div class="container">
+            <div class="secFirst feature mobFeature">
+                <p class="heading"><span class="underline">How</span> Hard Water Affects Your Baby
+                    <hr class="hr">
+                </p>
+                <p class="SubHeading">When used for bathing, hard water minerals react with soap to form a film ‘Soap
+                    Scum’, which sticks to the sensitive skin of a baby causing dryness and itchiness. </p>
+                <ul class="feature" style="margin-top:2%">
+                    <li>
+                        <figure><img src="./img/high.jpg" alt=""></figure>
+                        <div class="p-left">
+                            <h2>High-risk of Eczema with Hard Water</h2>
+                            <p>As per a study done by Institute of Dermatology, King’s College London, babies who are
+                                exposed to <strong>hard water are more likely to have eczema</strong></p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <figure class="order"><img src="./img/diaper.jpg" alt=""></figure>
+                        <div class="p-right">
+                            <h2>Severe Diaper Rashes with Hard Water</h2>
+                            <p>The mineral impurities present in hard water cause <strong>severe diaper rashes in
+                                    babies</strong>. These
+                                rashes can spread to the entire body and cause symptoms like fever.</p>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <figure><img src="./img/skin-inf.jpg" alt=""></figure>
+                        <div class="p-left">
+                            <h2>Unexplained Skin Infections with Hard Water</h2>
+                            <p>Using hard water for babies is likely to cause unexplained skin rashes, dryness and
+                                itching. The <strong>dryness can leave cracks on the skin</strong>, which can be painful
+                                and might get
+                                infected.</p>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="wsSliderDiv" style="position: relative;">
+                <p class="heading"><span class="underline">Our</span> Products</p>
+                <hr class="hr">
+                <!-- <img src="./img/gredient-shadow.png" alt="" class="dNone"> -->
+                <div class="wsSlider">
+                    <div class="ourProduct">
+                        <div class="ourProBath">
+                            <div>
+                                <p>KENT Bathroom
+                                    Water Softener</p>
+                            </div>
+                            <div>
+                                <figure><img src="./img/kent-bathroom-water-softener.png" alt=""></figure>
+                            </div>
+                            <div>
+                                <ul class="kentBathLi">
+                                    <li><span>High quality resin for longer life</span>
+                                    </li>
+                                    <li><span>Efficient Ion Exchange Process</span></li>
+                                    <li><span>Non-electric Process with two step regeneration</span></li>
+                                    <li><span>Easy to install and use</span></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <span class="btnCenter"><a href="#bookDemo" class="btn">Book Free Demo</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ourProduct">
+                        <div class="ourProBath">
+                            <div>
+                                <p>KENT Washing
+                                    Machine Water Softener</p>
+                            </div>
+                            <div>
+                                <figure><img src="./img/kent-washing-machine-water-softener.png" alt=""></figure>
+                            </div>
+                            <div>
+                                <ul class="kentWashing">
+                                    <li><span>Helps produce more lather</span></li>
+                                    <li><span>Enhances whiteness and lustre of clothes</span></li>
+                                    <li><span>Reduces salt deposits on clothes</span></li>
+                                    <li><span>Reduces detergent consumption</span></li>
+                                    <li><span>Compatible with Washing Machines</span></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <span class="btnCenter"><a href="#bookDemo" class="btn">Book Free Demo</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ourProduct">
+                        <div class="ourProBath">
+                            <div>
+                                <p>KENT Autosoft</p>
+                            </div>
+                            <div>
+                                <figure><img src="./img/autosoft.png" alt=""></figure>
+                            </div>
+                            <div>
+                                <ul class="kentWashing marginTop">
+                                    <li><span>Fully automatic regeneration </span></li>
+                                    <li><span>High capacity- needs fewer regenerations</span></li>
+                                    <li><span>Comes with interactive LED screen display</span></li>
+                                    <li><span>Prevents salt deposits on bathroom fittings and marble</span></li>
+                                    <li><span>Reduces consumption of soaps and detergents</span></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <span class="btnCenter"><a href="#bookDemo" class="btn">Book Free Demo</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class=" testmonialSlider">
+                <p class="heading">Customer Testimonials<br><span>Source : Amazon.in</span>
+                    <p>
+                        <hr class="hr">
+                        <div class="sliderContentDiv center sliderNew">
+                            <div class="slick-slideshow__slide">
+                                <div class="testimonialDivinner">
+                                    <span class="comma"></span>
+                                    <h2>Excellent Product</h2>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <P>Connected this to my Washing Machine & also using the water from the softener
+                                        for
+                                        my
+                                        room cooler. It does the job perfectly. Detergent powder usage decreased,
+                                        and
+                                        the
+                                        scaling on cooler has also reduced.</P>
+                                    <h3>Gaurav Roy</h3>
+                                </div>
+                            </div>
+                            <div class="slick-slideshow__slide">
+                                <div class="testimonialDivinner">
+                                    <span class="comma"></span>
+                                    <h2>Value for Money</h2>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <P>This equipment was delivered on time and the installation was done the very next
+                                        day. I found the water softener to be very effective in solving the hard water
+                                        problem. I am happy using the softener and recommend it for all.</P>
+                                    <h3>Mukesh Sharma</h3>
+                                </div>
+                            </div>
+                            <div class="slick-slideshow__slide">
+                                <div class="testimonialDivinner">
+                                    <span class="comma"></span>
+                                    <h2>Very Good Product, Worth to Buy</h2>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <P>I am using this from last 3 weeks and I found the product to be good in terms of
+                                        performance, quality that company promised. I loved the compact design and the
+                                        performance as well. I would say the product is reasonably priced and the
+                                        features have been thoughtfully added.
+
+                                    </P>
+                                    <h3>Nikhil Pandey</h3>
+                                </div>
+                            </div>
+                            <div class="slick-slideshow__slide">
+                                <div class="testimonialDivinner">
+                                    <span class="comma"></span>
+                                    <h2>Highly Recommended</h2>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                    <P>Delivery and installation was done on time and I am
+                                        happy as the product is genuine and it is working fine. As I was experiencing
+                                        tremendous hair fall, it was a must to be installed in our home. Now with soft
+                                        water my hair fall has decreased. </P>
+                                    <h3>Niti Sharma</h3>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container text-align">
+            <div class="block-text star">
+                <header>KENT ADVANTAGE</header>
+                <div class="sub-text" style="min-width: 200px;">
+                    Premium Quality Products
+                    with Large Sales and Service Network</div>
+            </div>
+            <div class="block-text trophy">
+                <header>MOST CERTIFIED &amp; AWARDED</header>
+                <div class="sub-text">Honoured with Numerous Awards and Certifications</div>
+            </div>
+            <div class="block-text ok">
+                <header>TRUSTED BY MILLIONS</header>
+                <div class="sub-text">Ranked #1 Most Trusted Brand in India</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p style="display: inline-block">Copyright © 2019 KENT RO Systems Ltd.</p>
+            <!-- <div class="footerLink"><a href="">Disclaimer</a>/<a href="">Privacy Policy</a>/<a href="">Blog</a>/<a
+                    href="">Site Map</a>/<a href="">T&C</a></div> -->
+        </div>
+        <div class="clear"></div>
+    </footer>
+    <section class="footerSticky">
+        <div class="bookDemo"><a href="#bookDemo" class="BOOK_DEMO">FILL FORM</a></div>
+        <div class="">
+            <div class="footerDemoBG"><span class="FREE_DEMO">FREE Demo</span></div>
+        </div>
+        <div class="CallNow"><a href="tel:01166765291" class="call-now">CALL NOW</a></div>
+    </section>
+    <script src="./js/jquery-2.2.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> -->
+    <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.js"></script> -->
+    <script>
+
+        /////////////////
+        $(function () {
+            $('.next').on('click', function () {
+                console.log('tested');
+                $('#stepOne').hide();
+                $('#stepTwo').show();
+                var seconds = document.getElementById("countdown").textContent;
+                var countdown = setInterval(function () {
+                    seconds--;
+                    document.getElementById("countdown").textContent = seconds;
+                    if (seconds <= 0) clearInterval(countdown);
+                }, 1000);
+            })
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 90) {
+                    $('.formInput').addClass('fixed-header');
+                }
+                else {
+                    $('.formInput').removeClass('fixed-header');
+                }
+            });
+            ////slider
+
+            ///water softener slider
+            $(".wsSlider").slick({
+                dots: true,
+                autoplay: false,
+                adaptiveHeight: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                //centerPadding: '10px',
+                responsive: [
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerPadding: 40
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerPadding: 40
+                        }
+                    }
+                ]
+            });
+            ////////
+            $(".sliderNew").slick({
+                slidesToShow: 1,
+                dots: true,
+                infinite: true,
+                autoplay: false,
+                adaptiveHeight: true,
+                centerMode: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerPadding: 40
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerPadding: 40
+                        }
+                    }
+                ]
+            });
+            ///////          /* https://www.kent.co.in/water-softener-for-baby-new.php */
+        });
+    </script>
+</body>
+
+</html>
